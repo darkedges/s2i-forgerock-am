@@ -10,6 +10,7 @@ fi
 
 echo "---> Installing amster config"
 cp -Rfp /tmp/src/. ./
+chmod 0755 ./amster/*.sh
 
 echo "---> Installing FRAM Instance"
 mkdir -p ./instance

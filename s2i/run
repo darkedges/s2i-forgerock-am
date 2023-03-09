@@ -51,6 +51,8 @@ EOF
         cat /opt/app-root/src/instance/security/keys/amster/amster_rsa.pub > /opt/app-root/src/instance/security/keys/amster/authorized_keys
         if [ -f "/opt/app-root/src/amster/importConfig.sh" ]; then
             echo "Import Amster Configuration"
+            whoami
+            ls -l /opt/app-root/src/amster/importConfig.sh
             /opt/app-root/src/amster/importConfig.sh
         fi
     fi
