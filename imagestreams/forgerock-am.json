@@ -4,7 +4,7 @@
     "metadata": {
         "name": "forgerock-am",
         "annotations": {
-            "openshift.io/display-name": "ForgeRock Identity Gateway"
+            "openshift.io/display-name": "ForgeRock Access Manager"
         }
     },
     "spec": {
@@ -12,9 +12,9 @@
             {
                 "name": "7.2.0",
                 "annotations": {
-                    "openshift.io/display-name": "ForgeRock Identity Gateway 7.2.0",
+                    "openshift.io/display-name": "ForgeRock Access Manager 7.2.0",
                     "openshift.io/provider-display-name": "DarkEdges",
-                    "description": "Build and run ForgeRock Identity Gateway 7.2.0 applications. For more information about using this builder image, including OpenShift considerations, see https://github.com/darkedges/s2i-forgerock-am.",
+                    "description": "Build and run ForgeRock Access Manager 7.2.0 applications. For more information about using this builder image, including OpenShift considerations, see https://github.com/darkedges/s2i-forgerock-am.",
                     "iconClass": "icon-forgerock",
                     "tags": "builder,forgerock",
                     "version": "11",
